@@ -3,14 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <title>Project: Recipes</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
 
     <body>
-        <h1>Odin Recipes</h1>
-        <ul>
-            <li><a href="./recipes/beef-pepper-bowl.html">Beef Pepper & Egg over Rice</a></li>
-            <li><a href="./recipes/kimchi-pork-stew.html">Kimchi Pork Stew</a></li>
-            <li><a href="./recipes/salmon-braise.html">Salmon & Mushroom Soy Sauce Braise</a></li>
-        </ul>
+        <div class="header">
+            <div class="logo">
+                <a href="./index.html"><img src="./images/fremen.png" width="45" height="48" alt="logo-image"></a>
+                <span class="logo-text">Go-To Recipes</span>
+            </div>
+        </div>
+
+        <div class="recipe-list">
+            <div class="recipe">
+                <a href="./recipes/beef-pepper-bowl.html"><img class="recipe-img" src="./images/beef-pepper.jpg" alt="Beef Pepper & Egg over Rice"></a>
+            </div>
+            <div class="recipe">
+                <a href="./recipes/kimchi-pork-stew.html"><img class="recipe-img" src="./images/kimchi-jjigae.jpg" alt="Kimchi Pork Stew"></a>
+            </div>
+            <div class="recipe">
+                <a href="./recipes/salmon-braise.html"><img class="recipe-img" src="./images/salmon-braise.jpg" alt="Salmon & Mushroom Soy Sauce Braise"></a>
+            </div>
+        </div>
     </body>
 </html>
